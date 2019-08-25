@@ -1,2 +1,0 @@
-/usr/bin/ar qc libkmstestutils.a  CMakeFiles/kmstestutils.dir/kmstestutils.c.o
-/usr/bin/ranlib libkmstestutils.a
