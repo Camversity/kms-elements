@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/kurento/modules/elements
+
+Name: kmselements
+Description: Kurento elements Module
+Version: 7.0.0-dev
+URL:
+Requires: kmscore  
+Requires.private:
+Libs: -L${libdir} -lkmselementsimpl
+Libs.private:
+CFlags: -I${includedir}
